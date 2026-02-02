@@ -1,0 +1,1 @@
+cmd_/build/cse4202-studio6/modules/Module.symvers := sed 's/ko$$/o/' /build/cse4202-studio6/modules/modules.order | scripts/mod/modpost -m -a   -o /build/cse4202-studio6/modules/Module.symvers -e -i Module.symvers   -n -T -

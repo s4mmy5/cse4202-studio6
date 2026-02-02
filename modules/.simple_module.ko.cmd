@@ -1,0 +1,1 @@
+cmd_/build/cse4202-studio6/modules/simple_module.ko := arm-linux-gnueabihf-ld -r -EL --build-id=sha1  -T scripts/module.lds -o /build/cse4202-studio6/modules/simple_module.ko /build/cse4202-studio6/modules/simple_module.o /build/cse4202-studio6/modules/simple_module.mod.o;  true
